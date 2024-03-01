@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+  <nav  class="navbar navbar-expand-lg bg-white">
+    <div  class="container">
+      <div  class="d-flex">
+        <button  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+          <span class="navbar-toggler-icon">
+        </span>
+      </button>
+      <img  routerlink="/dashboard" src="./images/VALIANT EDGE logo.png" alt="" height="50px" class="ms-2 cur-poiter" tabindex="0">
+    </div>
+    <div  id="navbarSupportedContent" class="collapse navbar-collapse ms-auto">
+      <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li  class="nav-item">
+          <div  routerlink="/dashboard" routerlinkactive="v-green-m" class="nav-link fw-bold cur-poiter px-3 text-dark" tabindex="0"> <a href="./index.html" class="navbar-text"> Home</a></div>
+        </li>
+        <li  class="nav-item dropdown">
+          <div  data-bs-toggle="dropdown" aria-expanded="false" class="nav-link fw-bold cur-poiter px-3 dropdown-toggle text-dark"> <a href="#" class="navbar-text"> Organization</a></div>
+          <ul class="dropdown-menu">
+            <li ><a  routerlink="/about" class="dropdown-item dd-menu-list navbar-text" >About Us</a>
+            </li>
+          </ul>
+        </li>
+        <li  class="nav-item dropdown">
+          <div data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" class="dropdown-toggle nav-link fw-bold cur-poiter px-3 v-green-m"> <a href="#" class="navbar-text"> Expertise </a></div>
+          <ul _id="main-dd" class="dropdown-menu" aria-expanded="false">
+            <li >
+              <div  class="dropend px-3 py-1">
+                <div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+                  <span  style="margin-right: 57px;"><a href="#" class="navbar-text">Services</a></span>
+                </div><ul  class="dropdown-menu">
+                  <li >
+                    <div  routerlink="/services/webdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./websiteDevelopment.html">Website Development</a> </div>
+                  </li>
+                  <li _>
+                    <div  routerlink="/services/softwaredevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./softwareDevelopment.html"> Software Development</a></div>
+                  </li>
+                  <li>
+                    <div  routerlink="/services/mobileappdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./mobileAppDevelopment.html"> Mobile App Development</a></div>
+                  </li>
+                  <li >
+                    <div  routerlink="/services/ecomdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./.html"></a> E Commerce Development</div>
+                  </li>
+                  <li ><div  routerlink="/services/cloudesevices" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./cloudServices.html"> Cloud Services</a></div>
+                  </li>
+                  <li ><div  routerlink="/services/uiuxdesign" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./uxDesign.html"> UI/UX Design</a></div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li ><div  class="dropend px-3 py-1"><div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+              <span  style="margin-right: 45px;"><a href="#" class="navbar-text">Marketing</a></span>
+            </div>
+            <ul  class="dropdown-menu">
+              <li >
+                <div  routerlink="/services/digitalmarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./digitalMarketing.html">Digital Marketing</a> </div>
+              </li>
+              <li >
+                <div  routerlink="/services/enterpriseseo" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./SEO.html"> Enterprise SEO</a></div>
+              </li>
+              <li ><div  routerlink="/services/socmediamarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./socialMedia.html">Social Media Marketing</a> </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li  class="nav-item">
+      <div  routerlink="/contact" routerlinkactive="v-green-m" class="navbar-text -link fw-bold cur-poiter px-3 text-dark" tabindex="0"><a href="./contact.html"><a href="#" class="navbar-text"> Contact</a></a></div>
+    </li>
+    <li  class="nav-item invisible">
+      <div  class="nav-link"></div>
+    </li>
+  </ul>
+</div>
+</div>
+</nav>
+
+  <div class="container col-xxl-10 px-3">
+    <div class="row flex-lg-row-reverse align-items-center rounded-4 shadow WDbgcolor paddHeader g-5" style="height: 450px;">
+      <div class="col-10 col-sm-8 col-lg-5">
+        <img src="./images/CloudServices/CS-heroimg-1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="600" loading="lazy">
+      </div>
+      <div class="col-lg-7">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Cloud Services</h1>
+        <p class="lead">Embrace agility and liberate yourself in a multi-cloud realm</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get in Touch</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5 mb-2">
+    <div class=" text-center ">
+      <div class="container py-2">
+        <h1 class="text-body-emphasis">Multi-cloud prowess: tailored solutions, seamless flexibility</h1>
+        <p class="col-lg-8 mx-auto lead">
+            Deliver success through rapid growth and on-time execution of critical projects with our agile expertise.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container padd pt-5 pb-3 px-5 bg-white ">
+    <div class="row g-3">
+      <div class="col-md-4">
+        <div class="card card1 h-100 mx-0 px-2 shadow">
+          <div class="img-circle-cloud">
+            <img src="./images/CloudServices/CS-cardicon1.png" width="50px" height="50px" class=" imgposition-cloud" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre">Security</h5>
+            <p class="card-text centre">Harness your infrastructure's full potential across diverse apps, clouds, and devices, fortified by intrinsic security at every layer</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card1 h-100 mx-0 px-2 shadow">
+          <div class="img-circle-cloud">
+            <img src="./images/CloudServices/CS-cardicon2.png" width="50px" height="50px" class=" imgposition-cloud" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre">Networking</h5>
+            <p class="card-text centre">Supercharge modern app operations with virtualized network and security, spanning WAN, data center, and cloud environments.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card1 h-100 mx-0 px-2 shadow">
+          <div class="img-circle-cloud">
+            <img src="./images/CloudServices/CS-cardicon3.png" width="50px" height="50px" class=" imgposition-cloud" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre">Telco Cloud</h5>
+            <p class="card-text centre">Deliver applications effortlessly across any cloud, anywhere from the core, RAN, and edge to the expansive cloud ecosystem.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container padd px-5 pb-5 bg-white">
+    <div class="row g-3">
+      <div class="col-md-4">
+        <div class="card card1 h-100 mx-0 px-2 shadow">
+          <div class="img-circle-cloud">
+            <img src="./images/CloudServices/CS-cardicon4.png" width="50px" height="50px" class=" imgposition-cloud" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre">App Platform</h5>
+            <p class="card-text centre">Innovate, modernize, and unify with cloud-native apps, transforming infrastructure across any cloud environment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card1 h-100 mx-0 px-2 shadow">
+          <div class="img-circle-cloud">
+            <img src="./images/CloudServices/CS-cardicon5.png" width="50px" height="50px" class=" imgposition-cloud" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre">Anywhere workplace</h5>
+            <p class="card-text centre">Empower employees with seamless anytime, anywhere work experiences, enabling productivity beyond boundaries.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card1 h-100 mx-0 px-2 shadow">
+          <div class="img-circle-cloud">
+            <img src="./images/CloudServices/CS-cardicon6.png" width="50px" height="50px" class=" imgposition-cloud" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre">Cloud Infrastructure</h5>
+            <p class="card-text centre">Unify app modernization and multi-cloud operations with a simplified, consistent environment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="bg-body-tertiary">
+  <div class="container col-xxl-10 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./images/CloudServices/CS-heroimg-2.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="750" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h6 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Safeguard your cloud experience with dedicated AWS Cloud facilities, prioritizing specialized security.</h6>
+        <p class="lead">Scale your business effortlessly and conquer heavy workloads with Valiant Edge. Experience the power of an ideal cloud infrastructure, whether you're launching new operations or revamping existing tech. Our AWS managed services empower you with seamless data management and optimal functionality. Trust us to handle the evolving technology landscape, leveraging specialized cloud services for Big Data and streamlined computing.</p>
+        <h6 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Secure tools, fortified cloud infrastructure trusted solutions.</h6>
+        <p class="lead">Gain a competitive edge with productive and secure business assets, ensuring seamless functionality and timely operations.</p>
+        <h6 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Maximize productivity, secure assets - gain a competitive edge.</h6>
+        <ul>
+            <li><p>AWS architecture</p></li>
+            <li><p>AWS migrations</p></li>
+            <li><p>AWS cloud management</p></li>
+        </ul>
+        <p class="lead"></p>Unleash business growth with our comprehensive cloud services, ensuring seamless scalability and enhanced security.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-5 mb-5">
+    <div class=" text-center ">
+      <div class="container py-2">
+        <h1 class="text-body-emphasis">Technologies We Expertise</h1>
+        <p class="col-lg-8 mx-auto lead">
+            Ignite engagement with our exceptional Cloud Technologies.
+        </p>
+        <div  class="mt-5 row justify-content-between">
+          <div  class="col-6 col-sm-6 col-md-2">
+            <div  class="card w-100 card-1 shadow cur-poiter my-2">
+              <div  class="card-body mx-2 d-flex justify-content-center align-items-center" style="height: 200px;">
+                <img  src="./images/CloudServices/CS-logo1.png" alt="" style="max-width: 100%; max-height: 150px;">
+              </div>
+            </div>
+          </div>
+          <div  class="col-6 col-sm-6 col-md-2">
+            <div  class="card w-100 card-1 shadow cur-poiter my-2">
+              <div  class="card-body mx-2 d-flex justify-content-center align-items-center" style="height: 200px;">
+                <img  src="./images/CloudServices/CS-logo2.png" alt="" style="max-width: 100%; max-height: 150px;">
+              </div>
+            </div>
+          </div>
+          <div  class="col-6 col-sm-6 col-md-2">
+            <div  class="card w-100 card-1 shadow cur-poiter my-2">
+              <div  class="card-body mx-2 d-flex justify-content-center align-items-center" style="height: 200px;">
+                <img  src="./images/CloudServices/CS-logo3.png" alt="" style="max-width: 100%; max-height: 150px;">
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-2">
+            <div class="card w-100 card-1 shadow cur-poiter my-2">
+              <div class="card-body mx-2 d-flex justify-content-center align-items-center" style="height: 200px;">
+                <img src="./images/CloudServices/CS-logo4.png" alt="" style="max-width: 100%; max-height: 150px;">
+              </div>
+            </div>
+          </div>
+          <div  class="col-6 col-sm-6 col-md-2">
+            <div  class="card w-100 card-1 shadow cur-poiter my-2">
+              <div  class="card-body mx-2 d-flex justify-content-center align-items-center" style="height: 200px;">
+                <img  src="./images/CloudServices/CS-logo5.png" alt="" style="max-width: 100%; max-height: 150px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="bg-body-tertiary">
+  <div class="container col-xxl-10 py-3">
+    <div class="row  align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./images/CloudServices/CS-heroimg-3.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h6 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Stay buoyant and customer-focused with our strategic insights, targeted marketing, and captivating branding solutions.</h6>
+        <div class="bullet-flex">
+          <div class="bullet">
+        <img src="./images/CloudServices/CD-bullet.png"  alt="" height="10" style="width: 45px !important;">
+          </div>
+        <p class="lead"><strong>Performance Optimization:</strong>Fine-tune your cloud infrastructure for optimal performance and efficiency, ensuring seamless operations and cost-effectiveness.</p>
+      </div>
+      <div class="bullet-flex">
+        <div class="bullet">
+      <img src="./images/CloudServices/CD-bullet.png"  alt="" height="10" style="width: 45px !important;">
+        </div>
+      <p class="lead"><strong>Scalability and Elasticity:</strong>Scale your resources up or down dynamically to meet fluctuating demands, ensuring optimal resource allocation and cost optimization.</p>
+    </div>
+    <div class="bullet-flex">
+      <div class="bullet">
+    <img src="./images/CloudServices/CD-bullet.png"  alt="" height="10" style="width: 45px !important;">
+      </div>
+    <p class="lead"><strong>Disaster Recovery:</strong>Implement robust disaster recovery plans and backup solutions to safeguard your data and ensure business continuity in case of unforeseen events.</p>
+  </div>
+  <div class="bullet-flex">
+    <div class="bullet">
+  <img src="./images/CloudServices/CD-bullet.png"  alt="" height="10" style="width: 45px !important;">
+    </div>
+  <p class="lead"><strong>Cost Management: </strong>Implement cost management strategies and tools to monitor and optimize your cloud spending, ensuring maximum ROI and cost efficiency.</p>
+</div>
+<div class="bullet-flex">
+  <div class="bullet">
+<img src="./images/CloudServices/CD-bullet.png"  alt="" height="10" style="width: 45px !important;">
+  </div>
+<p class="lead"><strong>Compliance and Governance:</strong> Ensure compliance with industry regulations and implement robust governance practices to maintain data privacy, security, and regulatory requirements.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="">
+  <div class="px-5 pt-5  text-center ">
+    <div class="container pt-5 pb-3">
+      <h1 class="text-body-emphasis">Allow us to architect your cloud strategy with precision and expertise.</h1>
+      <p class="col-lg-8 mx-auto lead">
+        Experience unparalleled efficiency and unwavering reliability through Valiant edge’s exceptional AWS managed services.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div  class="row justify-content-around mt-5">
+    <div  class="col-sm-12 col-md-3 col-lg-3 col-xl-3 py-2">
+      <div  class="card w-100 card-1 shadow cur-poiter h-100">
+        <div  class="card-body mx-2">
+          <div  class="d-flex justify-content-center">
+            <div  class="rounded-circle d-flex justify-content-center align-items-center" style="background-image: linear-gradient(#98CE34, #3CB24A); height: 100px; width: 100px;">
+              <img  alt="" style="max-height: 65px; max-width: 65px;" src="./images/websiteDevelopment/cardiconset2-3.png">
+            </div>
+          </div>
+          <p  class="fw-bold pt-2 text-center">Maximize resource efficiency</p>
+          <p  class="text-muted text-center" style="font-size: 13px;">Minimize AWS bills. Optimize resources. Empower your business.</p>
+        </div>
+      </div>
+    </div>
+    <div  class="col-sm-12 col-md-3 col-lg-3 col-xl-3 py-2">
+      <div  class="card w-100 card-1 shadow cur-poiter h-100">
+      <div  class="card-body mx-2">
+        <div  class="d-flex justify-content-center">
+          <div  class="rounded-circle d-flex justify-content-center align-items-center" style="background-image: linear-gradient(#98CE34, #3CB24A); height: 100px; width: 100px;">
+            <img  alt="" style="max-height: 65px; max-width: 65px;" src="./images/CloudServices/CS-2cardicon2.png">
+          </div>
+        </div>
+        <p  class="fw-bold pt-2 text-center">Terraform integration</p>
+        <p class="text-muted text-center" style="font-size: 13px;">Effortlessly build and manage data infrastructure with secure and efficient Terraform integration..
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 py-2">
+    <div  class="card w-100 card-1 shadow cur-poiter h-100">
+      <div class="card-body mx-2">
+        <div  class="d-flex justify-content-center">
+          <div  class="rounded-circle d-flex justify-content-center align-items-center" style="background-image: linear-gradient(#98CE34, #3CB24A); height: 100px; width: 100px;">
+            <img  alt="" style="max-height: 65px; max-width: 65px;" src="./images/CloudServices/CS-2cardicon3.png">
+          </div>
+        </div>
+        <p  class="fw-bold pt-2 text-center">AWS cloud service expertise</p>
+        <p  class="text-muted text-center" style="font-size: 13px;">Masters of Amazon CloudFront, Redshift, and SMS. Streamline your content delivery, data warehousing, and server migration with our expertise.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div  class="col-sm-12 col-md-3 col-lg-3 col-xl-3 py-2">
+    <div class="card w-100 card-1 shadow cur-poiter h-100">
+      <div  class="card-body mx-2">
+        <div class="d-flex justify-content-center">
+          <div  class="rounded-circle d-flex justify-content-center align-items-center" style="background-image: linear-gradient(#98CE34, #3CB24A); height: 100px; width: 100px;">
+            <img  alt="" style="max-height: 65px; max-width: 65px;" src="./images/CloudServices/CS-2cardicon4.png">
+          </div>
+        </div>
+        <p  class="fw-bold pt-2 text-center">Security and Compliance</p>
+        <p  class="text-muted text-center" style="font-size: 13px;">Elevate your security. Comprehensive protection for your valuable assets.</p>
+      </div>
+    </div>
+  </div>
+  <!----></div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./index.js" charset="UTF-8"></script> 
+</body>
+</html>

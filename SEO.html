@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <nav  class="navbar navbar-expand-lg bg-white">
+    <div  class="container">
+      <div  class="d-flex">
+        <button  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+          <span class="navbar-toggler-icon">
+        </span>
+      </button>
+      <img  routerlink="/dashboard" src="./images/VALIANT EDGE logo.png" alt="" height="50px" class="ms-2 cur-poiter" tabindex="0">
+    </div>
+    <div  id="navbarSupportedContent" class="collapse navbar-collapse ms-auto">
+      <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li  class="nav-item">
+          <div  routerlink="/dashboard" routerlinkactive="v-green-m" class="nav-link fw-bold cur-poiter px-3 text-dark" tabindex="0"> <a href="./index.html" class="navbar-text"> Home</a></div>
+        </li>
+        <li  class="nav-item dropdown">
+          <div  data-bs-toggle="dropdown" aria-expanded="false" class="nav-link fw-bold cur-poiter px-3 dropdown-toggle text-dark"> <a href="#" class="navbar-text"> Organization</a></div>
+          <ul class="dropdown-menu">
+            <li ><a  routerlink="/about" class="dropdown-item dd-menu-list navbar-text" >About Us</a>
+            </li>
+          </ul>
+        </li>
+        <li  class="nav-item dropdown">
+          <div data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" class="dropdown-toggle nav-link fw-bold cur-poiter px-3 v-green-m"> <a href="#" class="navbar-text"> Expertise </a></div>
+          <ul _id="main-dd" class="dropdown-menu" aria-expanded="false">
+            <li >
+              <div  class="dropend px-3 py-1">
+                <div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+                  <span  style="margin-right: 57px;"><a href="#" class="navbar-text">Services</a></span>
+                </div><ul  class="dropdown-menu">
+                  <li >
+                    <div  routerlink="/services/webdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./websiteDevelopment.html">Website Development</a> </div>
+                  </li>
+                  <li _>
+                    <div  routerlink="/services/softwaredevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./softwareDevelopment.html"> Software Development</a></div>
+                  </li>
+                  <li>
+                    <div  routerlink="/services/mobileappdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./mobileAppDevelopment.html"> Mobile App Development</a></div>
+                  </li>
+                  <li >
+                    <div  routerlink="/services/ecomdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./.html"></a> E Commerce Development</div>
+                  </li>
+                  <li ><div  routerlink="/services/cloudesevices" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./cloudServices.html"> Cloud Services</a></div>
+                  </li>
+                  <li ><div  routerlink="/services/uiuxdesign" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./uxDesign.html"> UI/UX Design</a></div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li ><div  class="dropend px-3 py-1"><div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+              <span  style="margin-right: 45px;"><a href="#" class="navbar-text">Marketing</a></span>
+            </div>
+            <ul  class="dropdown-menu">
+              <li >
+                <div  routerlink="/services/digitalmarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./digitalMarketing.html">Digital Marketing</a> </div>
+              </li>
+              <li >
+                <div  routerlink="/services/enterpriseseo" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./SEO.html"> Enterprise SEO</a></div>
+              </li>
+              <li ><div  routerlink="/services/socmediamarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./socialMedia.html">Social Media Marketing</a> </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li  class="nav-item">
+      <div  routerlink="/contact" routerlinkactive="v-green-m" class="navbar-text -link fw-bold cur-poiter px-3 text-dark" tabindex="0"><a href="./contact.html"><a href="#" class="navbar-text"> Contact</a></a></div>
+    </li>
+    <li  class="nav-item invisible">
+      <div  class="nav-link"></div>
+    </li>
+  </ul>
+</div>
+</div>
+</nav>
+  <div  class="container-Ux SEO-margin-phone ">
+    <div  class=" shadow" style="background-image: linear-gradient(to bottom right, #f9f9fa, #fff);">
+        <div  class="row flex-sm-row-reverse py-3">
+            <div class="col-sm-12 col-md-4 row justify-content-center">
+                <img src="./images/SEO/SEO-hero-img-1.png" alt="" class="img-fluid">
+            </div>
+            <div  class="col-sm-12 col-md-8 row justify-content-center align-items-center">
+                <div  class="col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                    <div  class="ms-3">
+                        <p  class="fs-1 mb-2 fw-bold">Enterprise Search Engine Optimization</p>
+                        <p  class="pb-3 text-muted">Improve scalability with enterprise SEO! Fortify your brand reputation to maximize impact!</p>
+                        <button  class="btn btn-lg bg-v-green-l rounded-0 border border-v-green-l fw-bold">Rank your Page #1</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mt-5 SEO-padding-jumb">
+    <div class="pt-5 pb-0 text-center bg-body-tertiary">
+      <div class="container pt-3 pb-0">
+        <h1 class="text-body-emphasis SEO-jumb-large">Explore a strategic approach to search engine optimization</h1>
+        <p class="col-lg-8 mx-auto lead mb-0 SEO-jumb-small">
+            Maximize ROI with transparent & data-driven methodologies!
+        </p>
+      </div>
+    </div>
+  </div>
+<div class="bg-body-tertiary ">
+  <div class="container-Ux-SEO padd pt-5 pb-SEO-5 px-SEO-5 bg-body-tertiary mar-bottom-SEO ">
+    <div class="row  gap-SEO phone-SEO-gap">
+      <div class="col-md-4 card1-left-padd">
+        <div class="card card3 h-100 mx-0 px-5  SEO-card-size rounded-5 d-flex" >
+          <div class="img-circle">
+          <img src="./images/SEO/SEO-cardicon1.png" width="50px" height="50px" class=" imgposition" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title centre SEO-card-heading">SEO Audit</h5>
+            <p class="card-text centre SEO-card-content-grey">Enhance your website's current performance in terms of content, mapping, coding, and keyword volume.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 card1-left-padd">
+        <div class="card card3 h-100 mx-0 px-5  SEO-card-size rounded-5 ">
+          <div class="img-circle">
+            <img src="./images/SEO/SEO-cardicon2.png" width="50px" height="50px" class=" imgposition" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre SEO-card-heading">Objective and strategy</h5>
+            <p class="card-text centre SEO-card-content-grey">Objectives and goals are set for your SEO campaigns after understanding your requirements.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 card1-left-padd">
+        <div class="card card3 h-100 mx-0 px-5 rounded-5  SEO-card-size ">
+          <div class="img-circle">
+            <img src="./images/SEO/SEO-cardicon3.png" width="50px" height="50px" class=" imgposition" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre SEO-card-heading">Industry research</h5>
+            <p class="card-text centre SEO-card-content-grey">Comprehensive keyword and topic research to project your brand as an expert in your domain.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-Ux-SEO padd mb-5 px-SEO-5 pt-SEO-5 bg-body-tertiary mar-bottom-SEO">
+    <div class="row  gap-SEO phone-SEO-gap">
+      <div class="col-md-4 card1-left-padd">
+        <div class="card card3 h-100 mx-0 px-5  SEO-card-size rounded-5 ">
+          <div class="img-circle">
+            <img src="./images/SEO/SEO-cardicon4.png" width="50px" height="50px" class=" imgposition" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre SEO-card-heading">Optimize content and code</h5>
+            <p class="card-text centre SEO-card-content-grey">Code cleaning, content optimization, architecture, mapping, page speed optimization, navigation, URL Structure, and more</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 card1-left-padd">
+        <div class="card card3 h-100 mx-0 px-5 v rounded-5 SEO-card-size ">
+          <div class="img-circle">
+            <img src="./images/SEO/SEO-cardicon5.png" width="50px" height="50px" class=" imgposition" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre SEO-card-heading">Implementation</h5>
+            <p class="card-text centre SEO-card-content-grey">Quality link building, link building through content marketing, SMO, engagement in Q&A forums, and so on.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 card1-left-padd">
+        <div class="card card3 h-100 mx-0 px-5  SEO-card-size rounded-5 ">
+          <div class="img-circle">
+            <img src="./images/SEO/SEO-cardicon6.png" width="50px" height="50px" class=" imgposition" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre SEO-card-heading">Report and Analysis</h5>
+            <p class="card-text centre SEO-card-content-grey">Assessing the campaign's results, and monitor performance and milestones in real-time with regular updates.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="background ">
+    <div class="container-Ux-SEO col-xxl-12 py=SEO margin-left-hero2">
+      <div class="row flex-lg-row-reverse align-items-center g-5 ">
+        <div class="col-10 col-sm-8 col-lg-6 hero1-SEO-pad2">
+          <img src="./images/SEO/SEO-hero-img-2.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6 col-sm-12 col-md-6 col-xl-6 row align-items-center">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 hero1-SEO-pad SEO-head-large">Build a foundation for effective response!</h1>
+          <p class="lead SEO-head-medium SEO-head-medium-color hero1-SEO-pad">You can generate an effective response during a future reputation crisis with a strong enterprise SEO.</p>
+          <p class="lead SEO-head-medium SEO-head-medium-color hero1-SEO-pad">A large-scale, strategic approach to search engine optimization is known as enterprise SEO. An enterprise SEO solution links your business goals with the larger market opportunity and strengthens your brand reputation to maximise effect throughout your marketing mix.</p>
+          <p class="lead SEO-head-medium SEO-head-medium-color hero1-SEO-pad">How can we significantly increase organic market share? How can we defend our brand against negative news cycles?</p>
+          <p class="lead SEO-head-medium SEO-head-medium-color hero1-SEO-pad">Enterprise SEO provides answers to questions like these</p>
+          <p class="lead fw-bold SEO-head-medium pb-0 hero1-SEO-pad">Enhance your digital portfolio to generate leads!</p>
+          <p class="lead SEO-head-medium SEO-head-medium-color hero1-SEO-pad">We follow the holistic approach in keyword research for your domain and optimize them for strategic positioning of your brand.</p>
+          <p class="lead fw-bold SEO-head-medium pb-0 hero1-SEO-pad">Not just that!</p>
+          <p class="lead SEO-head-medium SEO-head-medium-color hero1-SEO-pad">We curate search relevance on your website pages in real-time with refreshed content. To support voice search.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="background bg-body-tertiary">
+        <div class="container-Ux2 col-xxl-12 py-2 ">
+          <div class="row align-items-center g-5 ">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="./images/SEO/SEO-hero-img-3.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-6 col-xl-6 row align-items-center">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 pt-3 SEO-head-large hero1-SEO-pad">Build a foundation for effective response!</h1>
+              <div class="bullet-flex hero1-SEO-pad">
+                <div class="bullet-SEO">
+                  <img src="./images/SEO/bullet-SEO.png" class="bullet-SEO-size" alt="" >
+                </div>
+              <p class="lead SEO-head-small hero2-SEO-pad">A team of SEO specialists with experience, particularly for B2Bs/Enterprises.</p>
+            </div>
+            <div class="bullet-flex hero1-SEO-pad">
+                <div class="bullet-SEO">
+              <img src="./images/SEO/bullet-SEO.png"  alt=""class="bullet-SEO-size">
+                </div>
+              <p class="lead SEO-head-small hero2-SEO-pad">A bottom-up model or a targeted customer empathy strategy.</p>
+            </div>
+            <div class="bullet-flex hero1-SEO-pad">
+                <div class="bullet-SEO">
+              <img src="./images/SEO/bullet-SEO.png"  alt="" class="bullet-SEO-size">
+                </div>
+              <p class="lead SEO-head-small hero2-SEO-pad">SEO process with an agile approach that provides the ability to reach milestones throughout the project's timeline</p>
+            </div>
+            <div class="bullet-flex hero1-SEO-pad">
+                <div class="bullet-SEO">
+              <img src="./images/SEO/bullet-SEO.png"  alt="" class="bullet-SEO-size">
+                </div>
+              <p class="lead SEO-head-small hero2-SEO-pad">Rigorous testing using keyword ranks, backlinking quality, organic and mobile web traffic, bounce rate, and click-through rates.</p>
+            </div>
+            <div class="bullet-flex hero1-SEO-pad">
+                <div class="bullet-SEO">
+              <img src="./images/SEO/bullet-SEO.png"  alt="" class="bullet-SEO-size">
+                </div>
+              <p class="lead SEO-head-small hero2-SEO-pad">Curation of optimized content, carefully selecting each term to ensure semantic SEO and a high rate of shareability.</p>
+            </div>
+              
+            
+          </div>
+        </div>
+      </div>
+
+        <div class="my-2">
+            <div class=" text-center bg-v-green-l">
+              <div class="container width-adjust pt-5 pb-3">
+                <h1 class="DM-jumb-large-white">Rank your Website on the Page #1</h1>
+                <p class="col-lg-8 mx-auto lead mt-3">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 jumb-btn">Get in Touch</button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class=" text-center ">
+              <div class="container-Ux2-SEO pt-5">
+                <h1 class="SEO-jumb-large">Stay on top of the SEO game with our enterprise SEO service!</h1>
+                <p class="col-lg-8 mx-auto lead SEO-jumb-small">
+                    Here’s what happens if your website appears higher in the Google Search results for a certain search query?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container-Ux2 padd pt-SEO-5 pb-3 px-SEO-5 bg-white ">
+            <div class="row g-3 ">
+              <div class="col-md-3 SEO phone-SEO-gap2">
+                <div class="card  mx-0 p-2 SEO-card2-size2 shadow">
+                  <div class="img-circle-SEO">
+                    <img src="./images/SEO/SEO-2cardicon1.png" width="50px" height="50px" class=" imgposition-SEO" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center SEO-card-heading">Dominate your domain</h5>
+                    <p class="card-text text-center SEO-card-content-grey">Become a trustworthy, well-known resource for customers, regardless of where they are in the buying process.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 SEO phone-SEO-gap2 card2-SEO">
+                <div class="card  mx-0  p-2 SEO-card2-size2 shadow">
+                  <div class="img-circle-SEO">
+                    <img src="./images/SEO/SEO-2cardicon2.png" width="50px" height="50px" class=" imgposition-SEO" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center SEO-card-heading">Brand reputation</h5>
+                    <p class="card-text text-center SEO-card-content-grey">Control your online narrative and protect brand equity by controlling your search results.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 SEO phone-SEO-gap2">
+                <div class="card   mx-0  p-2 shadow SEO-card2-size2">
+                  <div class="img-circle-SEO">
+                    <img src="./images/SEO/SEO-2cardicon3.png" width="50px" height="50px" class=" imgposition-SEO" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center SEO-card-heading">Scalability</h5>
+                    <p class="card-text text-center SEO-card-content-grey">SEO strategies and executional tactics that support future business objectives rather than targeting short-term wins.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 SEO phone-SEO-gap2 card4-SEO">
+                <div class="card   mx-0 p-2 shadow SEO-card2-size2">
+                  <div class="img-circle-SEO">
+                    <img src="./images/SEO/SEO-cardicon5.png" width="50px" height="50px" class=" imgposition-SEO" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center SEO-card-heading">Market dominance</h5>
+                    <p class="card-text text-center SEO-card-content-grey">SEO is the most cost-effective way to beat your competitors. We help you stay ahead of your competitors through our enterprise Search Engine Optimization.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+          <div class="container padd pt-SEO-5-5 pb-3 px-SEO-5 bg-white ">
+            <div class="row gap-SEO phone-SEO-gap2">
+              <div class="col-md-4 SEO-card2-padding">
+                <div class="card  mx-0 p-2 shadow SEO-card2-size">
+                  <div class="img-circle-SEO">
+                    <img src="./images/SEO/SEO-2cardicon5.png" width="50px" height="50px" class=" imgposition-SEO" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center">High-quality traffic</h5>
+                    <p class="card-text text-center">By identifying the right business keywords and optimizing them, we drive organic traffic to your website.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 SEO-card2-padding SEO phone-SEO-gap2 card2-DM">
+                <div class="card   mx-0  p-2 shadow SEO-card2-size">
+                  <div class="img-circle-SEO">
+                    <img src="./images/SEO/SEO-2cardicon6.png" width="50px" height="50px" class=" imgposition-SEO" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Powerful branding</h5>
+                    <p class="card-text text-center">Higher the ranking, the higher the awareness of your brand. Top ranking sets you apart from your competitors & builds Brand trust.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 SEO phone-SEO-gap2 SEO-card2-padding">
+                <div class="card  mx-0  p-2 shadow SEO-card2-size">
+                  <div class="img-circle-SEO">
+                    <img src="./images/SEO/SEO-2cardicon7.png" width="50px" height="50px" class=" imgposition-SEO" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Higher conversion and sales</h5>
+                    <p class="card-text text-center">You attract more potential buyers who are searching with buying intent. Hence you see the sales spikes!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container col-xxl-12 p-DM-x py-5 mar-DM-bottom">
+            <div class="row  align-items-center g-5 pb-3 pt-5 laptop-size " >
+              <div class="col-10 col-sm-8 col-lg-6 laptop-img">
+                <img src="./images/websiteDevelopment/WD-hero-img4.png" class="d-block mx-lg-auto img-fluid-DM" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h6 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Let’s Talk</h6>
+                <p class="lead">Response with business day, Guaranteed!!</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <div class="row g-3">
+                    <div class="col-sm-6 col ">
+                      <input type="text" class="form-control DM-left-pad" id="firstName" placeholder="First name" value="" required="">
+                      <div class="invalid-feedback">
+                        Valid first name is required.
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col">
+                      <input type="text" class="form-control" id="lastName" placeholder="Last name" value="" required="">
+                      <div class="invalid-feedback">
+                        Valid last name is required.
+                      </div>
+                    </div>
+                    <div class="col-12 mar-DM-top">
+                      <input type="email" class="form-control" id="email" placeholder="Email">
+                      <div class="invalid-feedback">
+                        Please enter a valid email address for shipping updates.
+                      </div>
+                    </div>
+        
+                    <div class="col-12 mar-DM-top">
+                      <input type="text" class="form-control" id="address" placeholder="Phone" required="">
+                      <div class="invalid-feedback">
+                        Please enter your phone number.
+                      </div>
+                    </div>
+        
+                    <div class="col-12 mar-DM-top">
+                      <div class="form2">
+                        <label for="exampleFormControlInput1" class="form-label">Text input</label>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>What services you want to opt for?*</option>
+                          <option value="1">Website Development</option>
+                          <option value="2">Software Development</option>
+                          <option value="3">mobile Application Development</option>
+                          <option value="4">Digital Marketing</option>
+                          <option value="5">Cloud Services</option>
+                          <option value="6">Enterprise SEO</option>
+                          <option value="7">Social Media Marketing</option>
+                          <option value="8">UI/UX/Design</option>
+                          </select>
+                    </div>
+                    </div>
+        
+                    <div class="col-12 mar-DM-top">
+                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                    </div>
+                    <div class="col-4 mar-DM-top">
+                      <button type="submit" class="btn DM-btn-padd btn-form">Send Details</button>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-2">
+            <div class=" text-center bg-v-green-l">
+              <div class="container width-adjust pt-5 pb-3">
+                <h1 class="DM-jumb-large-white">Rank your Website on the Page #1</h1>
+                <p class="col-lg-8 mx-auto lead mt-3">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 jumb-btn">Get in Touch</button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bg ">
+            <div class="container border-bottom">
+              <footer class="pt-5">
+                <div class="row">
+                  <div class="col-md-5   social-media">
+                    
+                      <div class="title-wrapper">
+                          <img src="./images/footerimg.png" height="50px" />
+                          <h6 class="foottext2 footer-content2-space">If There Is One Lesson We Can Take Away From Modern Marketing, It Is That "If It's Not On The Web, it Doesn't Really Count Nearly 4 Billion Of The 7.7 Billion People On The Planet Have Access To The Internet.</h6>
+                          <p class="foottext2 mbr-desc mbr-fonts-style display-7 pt-5 pb-0 text-center1 footer-content color-v-green-l-foot">
+                            Follow us at
+                          </p>
+                          <div class="person-wrapper mb-2 mt-2">
+                              <div class="person-wrap">
+                                  <img src="./images/footer/facebook.svg" width="40px" height="40px" class="smicons foottext2 pb-1 mr-3" style="margin-right: 5px !important;" alt="">
+                                  <img src="./images/footer/twitter.svg" width="40px" height="40px" class="smicons foottext2 pb-1" style="margin-right: 5px !important;"/>
+                                  <img src="./images/footer/instagram.svg" width="40px" height="40px" class="smicons foottext2 pb-1" style="margin-right: 5px !important;" />
+                                  <img src="./images/footer/youtube.svg" width="40px" height="40px" class="smicons foottext2 pb-1 mr-5" style="margin-right: 5px !important;"/>
+                                  <img src="./images/footer/linkedin.svg" width="40px" height="40px" class="smicons foottext2 pb-1 style="margin-right: 5px !important;""/>
+                              </div>
+                          </div>
+                      </div>
+                      
+                  </div>
+                  <div class="col-6 col-md-2  Company">
+                    <h5 class="footer-headings color-v-green-l-foot mb-3">Company</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0  footer-content">Home</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">About Us</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Contact Us</a></li>
+                    </ul>
+                  </div>
+            
+                  <div class="col-6 col-md-2  services">
+                    <h5 class="footer-headings color-v-green-l-foot mb-3">Services</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Website Development</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Software Development</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">E-Commerce Development</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Mobile App Development</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Digital Marketing</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Enterprise SEO</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Social Media Marketing</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Cloud Services</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">UI/UX Design</a></li>
+                    </ul>
+                  </div>
+            
+                  <div class="col-6 col-md-2  get-in-touch">
+                    <h5 class="footer-headings footer-headings-size color-v-green-l-foot mb-3">Get in touch</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content footer-content-size mb-0">+91 84969 29113<br>+91 97411 38165</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content my-3 phone-sizing">info@valiantedgetech.com</a></li>
+                      <p class="footer-content2 ">#1- Flat No 506 S.L.V Towers Gandhi Nagar 2nd Cross Ballari 583103 Karnataka</p>
+                    </ul>
+                  </div>
+                </div>
+                <div class="mt-5 d-flex flex-column justify-content-center align-items-center pt-3 border-top text-center">
+                  <p class="footer-content2 footer-content2-phone mb-0">© 2024 Valiant Edge Technology All Rights Reserved.</p>
+                  <p class="footer-content3  text-center footer-content3-phone">Powered By JAGAN RAVI TECHNOLOGIES LLP</p>
+            
+                </div>
+              </footer>
+            </div>  
+              
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./index.js" charset="UTF-8"></script> 
+</body>
+</html>

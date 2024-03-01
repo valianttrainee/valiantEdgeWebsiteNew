@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <nav  class="navbar navbar-expand-lg bg-white">
+    <div  class="container">
+      <div  class="d-flex">
+        <button  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+          <span class="navbar-toggler-icon">
+        </span>
+      </button>
+      <img  routerlink="/dashboard" src="./images/VALIANT EDGE logo.png" alt="" height="50px" class="ms-2 cur-poiter" tabindex="0">
+    </div>
+    <div  id="navbarSupportedContent" class="collapse navbar-collapse ms-auto">
+      <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li  class="nav-item">
+          <div  routerlink="/dashboard" routerlinkactive="v-green-m" class="nav-link fw-bold cur-poiter px-3 text-dark" tabindex="0"> <a href="./index.html" class="navbar-text"> Home</a></div>
+        </li>
+        <li  class="nav-item dropdown">
+          <div  data-bs-toggle="dropdown" aria-expanded="false" class="nav-link fw-bold cur-poiter px-3 dropdown-toggle text-dark"> <a href="#" class="navbar-text"> Organization</a></div>
+          <ul class="dropdown-menu">
+            <li ><a  routerlink="/about" class="dropdown-item dd-menu-list navbar-text" >About Us</a>
+            </li>
+          </ul>
+        </li>
+        <li  class="nav-item dropdown">
+          <div data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" class="dropdown-toggle nav-link fw-bold cur-poiter px-3 v-green-m"> <a href="#" class="navbar-text"> Expertise </a></div>
+          <ul _id="main-dd" class="dropdown-menu" aria-expanded="false">
+            <li >
+              <div  class="dropend px-3 py-1">
+                <div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+                  <span  style="margin-right: 57px;"><a href="#" class="navbar-text">Services</a></span>
+                </div><ul  class="dropdown-menu">
+                  <li >
+                    <div  routerlink="/services/webdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./websiteDevelopment.html">Website Development</a> </div>
+                  </li>
+                  <li _>
+                    <div  routerlink="/services/softwaredevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./softwareDevelopment.html"> Software Development</a></div>
+                  </li>
+                  <li>
+                    <div  routerlink="/services/mobileappdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./mobileAppDevelopment.html"> Mobile App Development</a></div>
+                  </li>
+                  <li >
+                    <div  routerlink="/services/ecomdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./.html"></a> E Commerce Development</div>
+                  </li>
+                  <li ><div  routerlink="/services/cloudesevices" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./cloudServices.html"> Cloud Services</a></div>
+                  </li>
+                  <li ><div  routerlink="/services/uiuxdesign" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./uxDesign.html"> UI/UX Design</a></div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li ><div  class="dropend px-3 py-1"><div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+              <span  style="margin-right: 45px;"><a href="#" class="navbar-text">Marketing</a></span>
+            </div>
+            <ul  class="dropdown-menu">
+              <li >
+                <div  routerlink="/services/digitalmarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./digitalMarketing.html">Digital Marketing</a> </div>
+              </li>
+              <li >
+                <div  routerlink="/services/enterpriseseo" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./SEO.html"> Enterprise SEO</a></div>
+              </li>
+              <li ><div  routerlink="/services/socmediamarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./socialMedia.html">Social Media Marketing</a> </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li  class="nav-item">
+      <div  routerlink="/contact" routerlinkactive="v-green-m" class="navbar-text -link fw-bold cur-poiter px-3 text-dark" tabindex="0"><a href="./contact.html"><a href="#" class="navbar-text"> Contact</a></a></div>
+    </li>
+    <li  class="nav-item invisible">
+      <div  class="nav-link"></div>
+    </li>
+  </ul>
+</div>
+</div>
+</nav>
+
+  <div class="container col-xxl-10">
+    <div class="row flex-lg-row-reverse align-items-center rounded-4 shadow WDbgcolor paddHeader pt-3 pb-3 py-5" style="height: 450px;"   >
+      <div class="col-10 col-sm-8 col-lg-4">
+        <img src="./images/mobileAppDevelopment/MAD-hero-img1.png" class="d-block ml-lg-auto img-fluid " alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-8">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Mobile Application Development</h1>
+        <p class="lead">We help you give shape to your innovative ideas Accelerate disruption within your organization with our custom software development services.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get in Touch</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <div class="background mt-5">
+    <div class="container col-xxl-12 py-2 ">
+      <div class="row align-items-center g-5 ">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/mobileAppDevelopment/MAD-hero-img3.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Transform your business the smart way!</h1>
+          <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Mobile Apps Support</h2>
+          <p class="lead">We provide end-to-end application design and integration. Whether it's a consumer-facing app or a game-changing enterprise-class solution, we oversee the whole mobile app development process, from design to delivery and beyond!</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>

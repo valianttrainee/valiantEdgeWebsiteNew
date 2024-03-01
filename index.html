@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+<nav  class="navbar navbar-expand-lg bg-white">
+        <div  class="container">
+          <div  class="d-flex">
+            <button  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+              <span class="navbar-toggler-icon">
+            </span>
+          </button>
+          <img  routerlink="/dashboard" src="./images/VALIANT EDGE logo.png" alt="" height="50px" class="ms-2 cur-poiter" tabindex="0">
+        </div>
+        <div  id="navbarSupportedContent" class="collapse navbar-collapse ms-auto">
+          <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li  class="nav-item">
+              <div  routerlink="/dashboard" routerlinkactive="v-green-m" class="nav-link fw-bold cur-poiter px-3 text-dark" tabindex="0"> <a href="./index.html" class="navbar-text"> Home</a></div>
+            </li>
+            <li  class="nav-item dropdown">
+              <div  data-bs-toggle="dropdown" aria-expanded="false" class="nav-link fw-bold cur-poiter px-3 dropdown-toggle text-dark"> <a href="#" class="navbar-text"> Organization</a></div>
+              <ul class="dropdown-menu">
+                <li ><a  routerlink="/about" class="dropdown-item dd-menu-list navbar-text" >About Us</a>
+                </li>
+              </ul>
+            </li>
+            <li  class="nav-item dropdown">
+              <div data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" class="dropdown-toggle nav-link fw-bold cur-poiter px-3 v-green-m"> <a href="#" class="navbar-text"> Expertise </a></div>
+              <ul _id="main-dd" class="dropdown-menu" aria-expanded="false">
+                <li >
+                  <div  class="dropend px-3 py-1">
+                    <div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+                      <span  style="margin-right: 57px;"><a href="#" class="navbar-text">Services</a></span>
+                    </div><ul  class="dropdown-menu">
+                      <li >
+                        <div  routerlink="/services/webdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./websiteDevelopment.html">Website Development</a> </div>
+                      </li>
+                      <li _>
+                        <div  routerlink="/services/softwaredevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./softwareDevelopment.html"> Software Development</a></div>
+                      </li>
+                      <li>
+                        <div  routerlink="/services/mobileappdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./mobileAppDevelopment.html"> Mobile App Development</a></div>
+                      </li>
+                      <li >
+                        <div  routerlink="/services/ecomdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./.html"></a> E Commerce Development</div>
+                      </li>
+                      <li ><div  routerlink="/services/cloudesevices" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./cloudServices.html"> Cloud Services</a></div>
+                      </li>
+                      <li ><div  routerlink="/services/uiuxdesign" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./uxDesign.html"> UI/UX Design</a></div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li ><div  class="dropend px-3 py-1"><div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+                  <span  style="margin-right: 45px;"><a href="#" class="navbar-text">Marketing</a></span>
+                </div>
+                <ul  class="dropdown-menu">
+                  <li >
+                    <div  routerlink="/services/digitalmarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./digitalMarketing.html">Digital Marketing</a> </div>
+                  </li>
+                  <li >
+                    <div  routerlink="/services/enterpriseseo" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./SEO.html"> Enterprise SEO</a></div>
+                  </li>
+                  <li ><div  routerlink="/services/socmediamarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./socialMedia.html">Social Media Marketing</a> </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li  class="nav-item">
+          <div  routerlink="/contact" routerlinkactive="v-green-m" class="navbar-text -link fw-bold cur-poiter px-3 text-dark" tabindex="0"><a href="./contact.html"><a href="#" class="navbar-text"> Contact</a></a></div>
+        </li>
+        <li  class="nav-item invisible">
+          <div  class="nav-link"></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/carasolslide1.png" class="d-block h-50 w-100" alt="Slide 1">
+          <div class="container carousel-div ">
+            <div class="carousel-caption text-start col-md-6 col-lg-6 col-xl-6 revealx">
+              <p class="carousel-text1 "> Multi-cloud prowess: tailored solutions,<strong _ngcontent-eaj-c31="">seamless flexibility</strong></p>
+              <p><a class="btn btn-lg btn-primary carousel-btn" href="#">Sign up today</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#">Know more</a></p>
+            </div>
+          </div>
+        </div>
+          <div class="carousel-item">
+            <img src="./images/carasolslide2.png" class="d-block h-50 w-100" alt="Slide 2">
+            <div class="container carousel-div2 ">
+              <div class="carousel-caption text-start col-md-6 col-lg-6 col-xl-6 reveal">
+                <p class="carousel-text1"> Dynamize your <br />business with our <strong _ngcontent-eaj-c31="">UNPARALLELED SOLUTIONS</strong></p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/carasolslide3.png" class="d-block h-50 w-100" alt="Slide 3">
+            <div class="container carousel-div2 ">
+              <div class="carousel-caption text-start col-md-6 col-lg-6 col-xl-6">
+                <p class="carousel-text1"> Get the Perfect Solutions for your <strong _ngcontent-uyf-c31="">Website Issues</strong></p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/carasolslide4.png" class="d-block h-50 w-100" alt="Slide 4">
+            <div class="container carousel-div2 ">
+              <div class="carousel-caption text-start col-md-6 col-lg-6 col-xl-6 revealx">
+                <p class="carousel-text1"> Your Growth Story Begins With <strong _ngcontent-uyf-c31="">VALIANT EDGE</strong></p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+      </div>
+      <div class="">
+        <div class=" text-center reveal ">
+          <div class="container pt-5">
+            <h1 class="text-body-emphasis">A Corporate Commitment to High-End Strategy</h1>
+            
+          </div>
+        </div>
+      </div>
+      <div class="container-home padd pt-5 pb-3 px-5 bg-white reveal ">
+        <div class="row ">
+          <div class="col-md-4">
+            <div class="card card1 h-85 w-70 mx-0 px-5 bg-body-tertiary shadow">
+              
+              <div class="card-body">
+                <div  class="d-flex justify-content-center">
+                    <div  class="rounded-circle my-2" style="height: 67px; width: 67px; background-color: #F3F3F3;">
+                      <img src="./images/card1img.svg" height="65px" alt="" class="rounded-circle" style="background-color: #F3F3F3;"></div></div>
+                <h5 class="card-title text-center">Persistent Innovation</h5>
+                <p class="card-text text-center">Innovation and upgradation keeps business alive in market. Valiant Edge believes in agility and so we are on the toes to adapt the trends and experimentation to come up with unparalleled solution every time.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card1 h-85 w-70 mx-0 px-5 bg-body-tertiary shadow">
+              
+              <div class="card-body">
+                <div  class="d-flex justify-content-center">
+                    <div  class="rounded-circle my-2" style="height: 67px; width: 67px; background-color: #F3F3F3;">
+                      <img  src="./images/card1img.svg" height="65px" alt="" class="rounded-circle" style="background-color: #F3F3F3;"></div></div>
+                <h5 class="card-title centre">Commitment and Adherence</h5>
+                <p class="card-text centre">We adhere religiously in what we do. Once a commitment is delivered there is no turning back. Transparency and performing up to the minute is what we synonymize with.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card1 h-85 w-70 mx-0 px-5 bg-body-tertiary shadow">
+              
+              <div class="card-body">
+                <div  class="d-flex justify-content-center">
+                    <div  class="rounded-circle my-2" style="height: 67px; width: 67px; background-color: #F3F3F3;">
+                      <img  src="./images/card1img.svg" height="65px" alt="" class="rounded-circle" style="background-color: #F3F3F3;"></div></div>
+                <h5 class="card-title centre">High-End Strategy</h5>
+                <p class="card-text centre">To deliver a cost-effective business, our team is always buried in finding hi-end solution with tools and techniques. We have adept professionals who are specialist in redefining innovation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="my-0">
+        <div class="p-2 text-center bg-body-tertiary reveal">
+          <div class="container py-5">
+            <h1 class="text-body-emphasis">Revolutionize your business for unparalleled growth and success</h1>
+            <div class="youtube-img col-sm-12 col-md-10 col-lg-10 col-xl-10 ">
+            <a href="https://www.youtube.com/embed/4d1f4RIZrLg?autoplay=0&mute=1"><img src="./images/youtube link.png" width="100%" height="100%" /></a>
+        </div>
+          </div>
+        </div>
+      </div>
+      <div class="my-5">
+        <div class=" text-center ">
+          <div class="container">
+            <h1 class="text-body-emphasis">We're here to help our customers achieve their goals</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container-Ux2 padd pt-5 pb-3 px-5 bg-white ">
+        <div class="row g-3">
+          <div class="col-md-3">
+            <div class="card card1-onlycolor h-100 mx-0 p-3 shadow" style="height: 260px !important;">
+              <div class="img-circle-DM">
+                <img src="./images/card2icon1.png" width="50px" height="50px" class=" imgposition-DM" alt="...">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Application Development</h5>
+                <p class="card-text text-center">We create custom software solutions that solve your problems</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 card2-DM">
+            <div class="card card1-onlycolor h-100 mx-0  p-3 shadow" style="height: 260px !important;">
+              <div class="img-circle-DM">
+                <img src="./images/card2icon2.png" width="50px" height="50px" class=" imgposition-DM" alt="...">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Digital Marketing</h5>
+                <p class="card-text text-center">Reach your target audience with digital marketing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card card1-onlycolor h-100 mx-0  p-3 shadow" style="height: 260px !important;">
+              <div class="img-circle-DM">
+                <img src="./images/card2icon3.png" width="50px" height="50px" class=" imgposition-DM" alt="...">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Cloud Services</h5>
+                <p class="card-text text-center">Consider multiple facets of your business plan before taking that one big leap of faith.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 card4-DM">
+            <div class="card card1-onlycolor h-100 mx-0 p-3 shadow"  style="height: 260px !important;">
+              <div class="img-circle-DM">
+                <img src="./images/card2icon4.png" width="50px" height="50px" class=" imgposition-DM" alt="...">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">UI & UX Design</h5>
+                <p class="card-text text-center">We create user interfaces that are easy to use and visually appealing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="my-5">
+        <div class=" text-center bg-body-tertiary">
+          <div class="container padding-bottom">
+            <h1 class="text-body-emphasis">A Casual Chat to Uncover Opportunities for Your Company</h1>
+            <div class="flex-container row g-4 mt-3 revealx">
+              <div class="col-sm-3 form-name">
+
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+               
+              </div>
+              <div class="col-sm-3 form-email">
+                
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                
+              </div>
+              <div class="col-sm-3 form-phone">
+                
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Phone">
+                
+              </div>
+              <div class="col-sm-2 form-btn">
+                
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="my-5">
+        <div class=" text-center ">
+          <div class="container">
+            <h1 class="text-body-emphasis ">Company Profile</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container company-profile col-xxl-12 rounded-4 py-5 bg-body-tertiary">
+        <div class="row  align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6 revealx">
+            <img src="./images/company profile.png" width="350px" height="450px" class="d-block mx-lg-auto img-fluid bg-secondary rounded-4" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6 ">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Pioneering Excellence in the Business Landscape</h1>
+            <p class="lead">Valiant Edge: Fueling Success through Innovation. We provide strategic consulting, digital transformation, and custom software development to empower businesses in a dynamic world. Partner with us to achieve growth, efficiency, and remarkable outcomes.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+             <a href="https://www.valiantedgetech.com/assets/pdf/Valiant_Edge_Company_Profile.pdf"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Go through the company profile</button></a> 
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="my-5">
+        <div class="p-5 text-center reveal">
+          <div class="container py-5">
+            <h1 class="text-body-emphasis">Testaments of Happy Customers</h1>
+            <p class="col-lg-8 mx-auto lead">
+              Here is what a content and happy review looks like. Join the army of those who have had a great experience working with us.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="my-5">
+        <div class="p-3 text-center bg-v-green-l">
+          <div class="container py-3">
+            <h1 class="text-body-emphasis">Ready to Get Started?</h1>
+            <p class="col-lg-8 mx-auto lead">
+              Take your first step towards business transfermation
+            </p>
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get in touch</button>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5">
+        <div class="p-4 text-center bg-body-tertiary">
+          <div class="container py-3">
+            <h1 class="text-body-emphasis reveal">Our Clientele</h1>
+            <div class="Clientele-logo">
+              <div class="col-sm-2 Agrivimaan-Logo-1 shadow-lg rounded rounded-circle m-3 d-flex justify-content-center align-items-center p-2 logo-sizing">
+                <img src="./images/Agrivimaan Logo-1.png" width="100%"  />
+              </div>
+              <div class="col-sm-2 One-Life-Just-Go-Logo-2 shadow-lg rounded rounded-circle m-3 d-flex justify-content-center align-items-center p-2 logo-sizing">
+                <img src="./images/One Life Just Go Logo-2.png" width="100%"  />
+              </div>
+              <div class="col-sm-2 OPQ-Tech-Logo-3 shadow-lg rounded rounded-circle m-3 d-flex justify-content-center align-items-center p-2 logo-sizing">
+                <img src="./images/OPQ Tech Logo-3.png" width="100%" />
+              </div>
+              <div class="col-sm-2 wheelsdeals-4 shadow-lg rounded rounded-circle m-3 d-flex justify-content-center align-items-center p-2 logo-sizing">
+                <img src="./images/wheelsdeals-4.png" width="100%" />
+              </div>
+              <div class="col-sm-2 omstaff logo-5 shadow-lg rounded rounded-circle m-3 d-flex justify-content-center align-items-center p-2 logo-sizing">
+                <img src="./images/omstaff logo-5.png" width="100%" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<div class="footer-bg ">
+    <div class="container border-bottom">
+      <footer class="pt-5">
+        <div class="row">
+          <div class="col-md-5   social-media">
+            
+              <div class="title-wrapper">
+                  <img src="./images/footerimg.png" height="50px" />
+                  <h6 class="foottext2 footer-content2-space">If There Is One Lesson We Can Take Away From Modern Marketing, It Is That "If It's Not On The Web, it Doesn't Really Count Nearly 4 Billion Of The 7.7 Billion People On The Planet Have Access To The Internet.</h6>
+                  <p class="foottext2 mbr-desc mbr-fonts-style display-7 pt-5 pb-0 text-center1 footer-content color-v-green-l-foot">
+                    Follow us at
+                  </p>
+                  <div class="person-wrapper mb-2 mt-2">
+                      <div class="person-wrap">
+                          <img src="./images/footer/facebook.svg" width="40px" height="40px" class="smicons foottext2 pb-1 mr-3" style="margin-right: 5px !important;" alt="">
+                          <img src="./images/footer/twitter.svg" width="40px" height="40px" class="smicons foottext2 pb-1" style="margin-right: 5px !important;"/>
+                          <img src="./images/footer/instagram.svg" width="40px" height="40px" class="smicons foottext2 pb-1" style="margin-right: 5px !important;" />
+                          <img src="./images/footer/youtube.svg" width="40px" height="40px" class="smicons foottext2 pb-1 mr-5" style="margin-right: 5px !important;"/>
+                          <img src="./images/footer/linkedin.svg" width="40px" height="40px" class="smicons foottext2 pb-1 style="margin-right: 5px !important;""/>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+          <div class="col-6 col-md-2  Company">
+            <h5 class="footer-headings color-v-green-l-foot mb-3">Company</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0  footer-content">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">About Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Contact Us</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2  services">
+            <h5 class="footer-headings color-v-green-l-foot mb-3">Services</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Website Development</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Software Development</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">E-Commerce Development</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Mobile App Development</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Digital Marketing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Enterprise SEO</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Social Media Marketing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Cloud Services</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">UI/UX Design</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2  get-in-touch">
+            <h5 class="footer-headings footer-headings-size color-v-green-l-foot mb-3">Get in touch</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content footer-content-size mb-0">+91 84969 29113<br>+91 97411 38165</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content my-3 phone-sizing">info@valiantedgetech.com</a></li>
+              <p class="footer-content2 ">#1- Flat No 506 S.L.V Towers Gandhi Nagar 2nd Cross Ballari 583103 Karnataka</p>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-5 d-flex flex-column justify-content-center align-items-center pt-3 border-top text-center">
+          <p class="footer-content2 footer-content2-phone mb-0">© 2024 Valiant Edge Technology All Rights Reserved.</p>
+          <p class="footer-content3  text-center footer-content3-phone">Powered By JAGAN RAVI TECHNOLOGIES LLP</p>
+    
+        </div>
+      </footer>
+    </div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>
+<img src="./images/VALIANT EDGE logo.png" width="150" height="30" 

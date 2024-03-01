@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <nav  class="navbar navbar-expand-lg bg-white">
+    <div  class="container">
+      <div  class="d-flex">
+        <button  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+          <span class="navbar-toggler-icon">
+        </span>
+      </button>
+      <img  routerlink="/dashboard" src="./images/VALIANT EDGE logo.png" alt="" height="50px" class="ms-2 cur-poiter" tabindex="0">
+    </div>
+    <div  id="navbarSupportedContent" class="collapse navbar-collapse ms-auto">
+      <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li  class="nav-item">
+          <div  routerlink="/dashboard" routerlinkactive="v-green-m" class="nav-link fw-bold cur-poiter px-3 text-dark" tabindex="0"> <a href="./index.html" class="navbar-text"> Home</a></div>
+        </li>
+        <li  class="nav-item dropdown">
+          <div  data-bs-toggle="dropdown" aria-expanded="false" class="nav-link fw-bold cur-poiter px-3 dropdown-toggle text-dark"> <a href="#" class="navbar-text"> Organization</a></div>
+          <ul class="dropdown-menu">
+            <li ><a  routerlink="/about" class="dropdown-item dd-menu-list navbar-text" >About Us</a>
+            </li>
+          </ul>
+        </li>
+        <li  class="nav-item dropdown">
+          <div data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" class="dropdown-toggle nav-link fw-bold cur-poiter px-3 v-green-m"> <a href="#" class="navbar-text"> Expertise </a></div>
+          <ul _id="main-dd" class="dropdown-menu" aria-expanded="false">
+            <li >
+              <div  class="dropend px-3 py-1">
+                <div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+                  <span  style="margin-right: 57px;"><a href="#" class="navbar-text">Services</a></span>
+                </div><ul  class="dropdown-menu">
+                  <li >
+                    <div  routerlink="/services/webdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./websiteDevelopment.html">Website Development</a> </div>
+                  </li>
+                  <li _>
+                    <div  routerlink="/services/softwaredevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./softwareDevelopment.html"> Software Development</a></div>
+                  </li>
+                  <li>
+                    <div  routerlink="/services/mobileappdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./mobileAppDevelopment.html"> Mobile App Development</a></div>
+                  </li>
+                  <li >
+                    <div  routerlink="/services/ecomdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./.html"></a> E Commerce Development</div>
+                  </li>
+                  <li ><div  routerlink="/services/cloudesevices" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./cloudServices.html"> Cloud Services</a></div>
+                  </li>
+                  <li ><div  routerlink="/services/uiuxdesign" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./uxDesign.html"> UI/UX Design</a></div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li ><div  class="dropend px-3 py-1"><div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+              <span  style="margin-right: 45px;"><a href="#" class="navbar-text">Marketing</a></span>
+            </div>
+            <ul  class="dropdown-menu">
+              <li >
+                <div  routerlink="/services/digitalmarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./digitalMarketing.html">Digital Marketing</a> </div>
+              </li>
+              <li >
+                <div  routerlink="/services/enterpriseseo" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./SEO.html"> Enterprise SEO</a></div>
+              </li>
+              <li ><div  routerlink="/services/socmediamarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./socialMedia.html">Social Media Marketing</a> </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li  class="nav-item">
+      <div  routerlink="/contact" routerlinkactive="v-green-m" class="navbar-text -link fw-bold cur-poiter px-3 text-dark" tabindex="0"><a href="./contact.html"><a href="#" class="navbar-text"> Contact</a></a></div>
+    </li>
+    <li  class="nav-item invisible">
+      <div  class="nav-link"></div>
+    </li>
+  </ul>
+</div>
+</div>
+</nav>
+  <div class="container col-xxl-10">
+    <div class="row flex-lg-row-reverse align-items-center rounded-4 shadow WDbgcolor paddHeader pt-5 pb-3">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./images/softwareDevelopment/SD-hero-img1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Software Development</h1>
+        <p class="lead">We help you give shape to your innovative ideas Accelerate disruption within your organization with our custom software development services.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get in Touch</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="my-5">
+    <div class=" text-center bg-body-tertiary">
+      <div class="container ">
+        <h1 class="text-body-emphasis">What Makes Us Different?</h1>
+        <p class="col-lg-8 mx-auto lead">
+            We are your reliable partners
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container padd pt-5 pb-5  mb-3 px-5 bg-white  ">
+    <div class="row g-3">
+      <div class="col-md-3 set2-card1">
+        <div class="card  h-100 mx-0 px-5 bg-body-tertiary">
+          <img src="./comp.png" class="card-img-top centre" alt="...">
+          <div class="card-body">
+            <h5 class="card-title centre">Programming &<br /> Development</h5>
+            <p class="card-text centre">542,730 Freelancers</p>
+            <a href="#" class="centre">Learn more></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 set2-card2">
+        <div class="card  h-100 mx-0 px-5 bg-body-tertiary">
+          <img src="./pen-and-paper.png" class="centre card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title centre">Writing &<br /> Translation</h5>
+            <p class="card-text centre">407,825 Freelancers</p>
+            <a href="#" class="centre">Learn more></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 set2-card3">
+        <div class="card  h-100 mx-0 px-5 bg-body-tertiary">
+          <img src="./pen.png" class="card-img-top centre" alt="...">
+          <div class="card-body">
+            <h5 class="card-title centre">Design &<br /> Art</h5>
+            <p class="card-text centre">336,229 Freelancers</p>
+            <a href="#" class="centre">Learn more></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 set2-card4">
+        <div class="card  h-100 mx-0 px-5 bg-body-tertiary">
+          <img src="./pen.png" class="card-img-top centre" alt="...">
+          <div class="card-body">
+            <h5 class="card-title centre">Design &<br /> Art</h5>
+            <p class="card-text centre">336,229 Freelancers</p>
+            <a href="#" class="centre">Learn more></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="background bg-body-tertiary">
+  <div class="container col-xxl-12 py-2">
+    <div class="row flex-lg-row-reverse align-items-center g-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./images/softwareDevelopment/SD-hero-img2.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">A sneak peek into our Project Planning</h1>
+        <p class="lead">With are unprecedent software solutions we will build and strengthen the business of our customer. Creating sophisticated application that computes power, stores database and deliver perfection.</p>
+        <div class="row pb-3">
+            <div class="col-md-5 ">
+              <img src="./images/websiteDevelopment/herosecicon1.png" class="herosecicon1"/>
+              <div class="herotextpad">
+              <p>Requirement Assessment</p>
+            </div>
+            </div>
+            <div class="col-md-5 ">
+              <img src="./images/websiteDevelopment/herosecicon2.png" class="herosecicon1"/>
+              <div class="herotextpad">
+              <p>Project Summary</p>
+            </div>
+            </div>
+          </div>
+          <div class="row g-5 pt-2">
+            <div class="col-md-5 ">
+              <img src="./images/websiteDevelopment/herosecicon3.png" class="herosecicon1"/>
+              <div class="herotextpad">
+              <p>Determining Required Resources</p>
+            </div>
+            </div>
+            <div class="col-md-5 ">
+              <img src="./images/websiteDevelopment/herosecicon4.png" class="herosecicon1"/>
+              <div class="herotextpad">
+              <p>Key performance goals</p>
+            </div>
+            </div>
+          </div>
+          <div class="row pb-3">
+            <div class="col-md-5 ">
+              <img src="./images/websiteDevelopment/herosecicon3.png" class="herosecicon1"/>
+              <div class="herotextpad">
+              <p>Competitor Analysis</p>
+            </div>
+            </div>
+            <div class="col-md-5 ">
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container col-xxl-12 pt-5 pb-5">
+    <div class="row  align-items-center g-5 ">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./images/softwareDevelopment/SD-hero-img3.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Engaging Business Decisions for Revenue Growth</h1>
+        <p class="lead">With are unprecedent software solutions we will build and strengthen the business of our customer. Creating sophisticated application that computes power, stores database and deliver perfection.</p>
+        <div class="row g-3">
+        <div class="col-md-6">
+            <div class="card card2 shadow text-center1 border">
+              <div class="card-body">
+                <div class="number-circle2 circle-bg1">
+                  <div class="text-center text-white">1</div>
+                </div>
+                <p class="name">Rich UI/UX</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card2 shadow text-center1 border">
+              <div class="card-body">
+                <div class="number-circle2 circle-bg2">
+                  <div class="text-center text-white">2</div>
+                </div>
+                <p class="name">
+                    Customised for your Needs</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card card2 shadow text-center1 border">
+              <div class="card-body">
+                <div class="number-circle2 circle-bg3">
+                  <div class="text-center text-white">3</div>
+                </div>
+                <p class="name">Mobile friendly</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card card2 shadow text-center1 border">
+              <div class="card-body">
+                <div class="number-circle2 circle-bg4">
+                  <div class="text-center text-white">4</div>
+                </div>
+                <p class="name">Latest technology</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card card2 shadow text-center1 border">
+              <div class="card-body">
+                <div class="number-circle2 circle-bg5">
+                  <div class="text-center text-white">3</div>
+                </div>
+                <p class="name">Timely Delivery</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card card2 shadow text-center1 border">
+              <div class="card-body">
+                <div class="number-circle2 circle-bg6">
+                  <div class="text-center text-white">3</div>
+                </div>
+                <p class="name">Marketing Consultation</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-body-tertiary">
+    <div class=" text-center ">
+      <div class="container py-4">
+        <h1 class="text-body-emphasis">A peek into our website development process!</h1>
+        <p class="col-lg-8 mx-auto lead">
+            At Valiant Edge, we follow a structured format with a clear line of thought to fine-tune your web design and development process.
+        </p>
+        <div class="Clientele-logo Clientele-logo-gap col-sm-12">
+            <div class="card col-sm-2 shadow" style="width: 15%; height: 18%;" >
+                <img src="./images/softwareDevelopment/reactJs.svg" class="card-img-top logoWidth m-3 d-flex justify-content-center align-items-center  logo-sizing"  alt="...">
+                <div class="card-body logoNames">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+            </div>
+              <div class="card col-sm-2 shadow" style="width: 15%; height: 18%;">
+                <img src="./images/softwareDevelopment/angular.svg" class="card-img-top logoWidth2 m-3 d-flex justify-content-center align-items-center  logo-sizing"  alt="...">
+                <div class="card-body logoNames">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
+              <div class="card col-sm-2 shadow" style="width: 15%; height: 18%;">
+                <img src="./images/softwareDevelopment/Vuejs.svg" class="card-img-top col-sm-2 logoWidth3 m-3 d-flex justify-content-center align-items-center  logo-sizing" width="100%" alt="...">
+                <div class="card-body logoNames">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
+              <div class="card col-sm-2 shadow" style="width: 15%; height: 18%;">
+                <img src="./images/softwareDevelopment/nodejs.svg" class="card-img-top col-sm-2 logoWidth2  m-3 d-flex justify-content-center align-items-center  logo-sizing" width="100%" alt="...">
+                <div class="card-body logoNames">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
+              <div class="card col-sm-2 shadow" style="width: 15%; height: 18%;">
+                <img src="./images/softwareDevelopment/php.svg" class="card-img-top col-sm-2 logoWidth4  m-3 d-flex justify-content-center align-items-center  logo-sizing" width="100%" alt="...">
+                <div class="card-body logoNames">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
+          </div>
+          <div class="Clientele-logo2 Clientele-logo-gap2 col-sm-12">
+            <div class="card col-sm-2 logoSpan shadow" style="width: 15%; height: 18%;" >
+                <img src="./images/softwareDevelopment/java.svg" class="card-img-top logoWidth6 m-3 d-flex justify-content-center align-items-center  logo-sizing"  alt="...">
+                <div class="card-body logoNames">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+            </div>
+             
+              <div class="card col-sm-2 shadow" style="width: 15%; height: 18%;">
+                <img src="./images/softwareDevelopment/laravel.svg" class="card-img-top col-sm-2 logoWidth3 m-3 d-flex justify-content-center align-items-center  logo-sizing" width="100%" alt="...">
+                <div class="card-body logoNames">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
+              
+              <div class="card col-sm-2 shadow" style="width: 15%; height: 18%;">
+                <img src="./images/softwareDevelopment/wordpress.svg" class="card-img-top col-sm-2 logoWidth5  m-3 d-flex justify-content-center align-items-center  logo-sizing" width="100%" alt="...">
+                <div class="card-body logoNames">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <nav  class="navbar navbar-expand-lg bg-white">
+    <div  class="container">
+      <div  class="d-flex">
+        <button  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+          <span class="navbar-toggler-icon">
+        </span>
+      </button>
+      <img  routerlink="/dashboard" src="./images/VALIANT EDGE logo.png" alt="" height="50px" class="ms-2 cur-poiter" tabindex="0">
+    </div>
+    <div  id="navbarSupportedContent" class="collapse navbar-collapse ms-auto">
+      <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li  class="nav-item">
+          <div  routerlink="/dashboard" routerlinkactive="v-green-m" class="nav-link fw-bold cur-poiter px-3 text-dark" tabindex="0"> <a href="./index.html" class="navbar-text"> Home</a></div>
+        </li>
+        <li  class="nav-item dropdown">
+          <div  data-bs-toggle="dropdown" aria-expanded="false" class="nav-link fw-bold cur-poiter px-3 dropdown-toggle text-dark"> <a href="#" class="navbar-text"> Organization</a></div>
+          <ul class="dropdown-menu">
+            <li ><a  routerlink="/about" class="dropdown-item dd-menu-list navbar-text" >About Us</a>
+            </li>
+          </ul>
+        </li>
+        <li  class="nav-item dropdown">
+          <div data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" class="dropdown-toggle nav-link fw-bold cur-poiter px-3 v-green-m"> <a href="#" class="navbar-text"> Expertise </a></div>
+          <ul _id="main-dd" class="dropdown-menu" aria-expanded="false">
+            <li >
+              <div  class="dropend px-3 py-1">
+                <div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+                  <span  style="margin-right: 57px;"><a href="#" class="navbar-text">Services</a></span>
+                </div><ul  class="dropdown-menu">
+                  <li >
+                    <div  routerlink="/services/webdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./websiteDevelopment.html">Website Development</a> </div>
+                  </li>
+                  <li _>
+                    <div  routerlink="/services/softwaredevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./softwareDevelopment.html"> Software Development</a></div>
+                  </li>
+                  <li>
+                    <div  routerlink="/services/mobileappdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./mobileAppDevelopment.html"> Mobile App Development</a></div>
+                  </li>
+                  <li >
+                    <div  routerlink="/services/ecomdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./.html"></a> E Commerce Development</div>
+                  </li>
+                  <li ><div  routerlink="/services/cloudesevices" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./cloudServices.html"> Cloud Services</a></div>
+                  </li>
+                  <li ><div  routerlink="/services/uiuxdesign" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./uxDesign.html"> UI/UX Design</a></div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li ><div  class="dropend px-3 py-1"><div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+              <span  style="margin-right: 45px;"><a href="#" class="navbar-text">Marketing</a></span>
+            </div>
+            <ul  class="dropdown-menu">
+              <li >
+                <div  routerlink="/services/digitalmarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./digitalMarketing.html">Digital Marketing</a> </div>
+              </li>
+              <li >
+                <div  routerlink="/services/enterpriseseo" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./SEO.html"> Enterprise SEO</a></div>
+              </li>
+              <li ><div  routerlink="/services/socmediamarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./socialMedia.html">Social Media Marketing</a> </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li  class="nav-item">
+      <div  routerlink="/contact" routerlinkactive="v-green-m" class="navbar-text -link fw-bold cur-poiter px-3 text-dark" tabindex="0"><a href="./contact.html"><a href="#" class="navbar-text"> Contact</a></a></div>
+    </li>
+    <li  class="nav-item invisible">
+      <div  class="nav-link"></div>
+    </li>
+  </ul>
+</div>
+</div>
+</nav>
+  <div class="container-Ux">
+    <div class="rounded-4 shadow" style="background-image: linear-gradient(to bottom right, #f9f9fa, #fff);">
+        <div class="row flex-sm-row-reverse py-3">
+            <div class="col-sm-12 col-md-4 row justify-content-center">
+                <img src="./images/digitalMarketing/DM-hero-img-1.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-8 row justify-content-center align-items-center">
+                <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                    <div class="ms-3">
+                        <p class="fs-1 mb-2 fw-bold">Social Media Marketing</p>
+                        <p class="pb-3 text-muted">Win over social media. Enable your brand’s success.</p>
+                        <button data-bs-toggle="modal" data-bs-target="#getInTouch" class="btn btn-lg bg-v-green-l rounded-0 border border-v-green-l fw-bold">Get in Touch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="">
+    <div class="p-3 text-center ">
+      <div class="container pt-5">
+        <h1 class="text-body-emphasis">Explore a strategic approach to search engine optimization</h1>
+        <p class="col-lg-8 mx-auto lead pt-3">
+            Maximize ROI with transparent & data-driven methodologies!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-Ux2 padd pt-0 pb-3 px-5 bg-white ">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card  h-100 mx-0 px-2 shadow">
+          <div class="img-circle-SM">
+            <img src="./images/socialMedia/SM-cardicon1.png" width="50px" height="50px" class=" imgposition-SM" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre">Brand Positioning</h5>
+            <p class="card-text centre">Our consistent approach enhances key messaging via a unique style that portrays your brand. This helps to position your brand as trustworthy</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card  h-100 mx-0 px-2 shadow">
+          <div class="img-circle-SM">
+            <img src="./images/socialMedia/SM-cardicon2.png" width="50px" height="50px" class=" imgposition-SM" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre">Leads Generation</h5>
+            <p class="card-text centre">We qualify leads with the right social media marketing services by encouraging them to buy your products or services on a regular basis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-Ux2 padd px-5 pb-5 bg-white">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card  h-100 mx-0 px-2 shadow">
+          <div class="img-circle-SM">
+            <img src="./images/socialMedia/SM-cardicon3.png" width="50px" height="50px" class=" imgposition-SEO" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre">Increased Engagement</h5>
+            <p class="card-text centre">We believe in actionable social media management services to drive your engagement strategy.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card  h-100 mx-0 px-2 shadow">
+          <div class="img-circle-SM">
+            <img src="./images/socialMedia/SM-cardicon4.png" width="50px" height="50px" class=" imgposition-SEO" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre">Social Proof for Growth</h5>
+            <p class="card-text centre">We help in building trust and a powerful brand association for your customers by finding the best way to build strong social proof.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="background bg-body-tertiary">
+    <div class="container-Ux col-xxl-12 py-5 ">
+      <div class="row flex-lg-row-reverse align-items-center g-5 ">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/socialMedia/SM-hero-img2.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6 col-sm-12 col-md-6 col-xl-6 row align-items-center">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 pt-5">Have you tasted success on social media yet? It’s YUM!</h1>
+          <p class="lead">What can a social media marketing services company do for me?" you might wonder. In simple words, the most significant advantage that our social media marketing company can offer you is more time and a higher ROI at a low cost.</p>
+          <p class="lead">The ability to minimize your CPA (cost per acquisition) and increase your ROI is the key to developing a successful social media management campaign (or any digital marketing campaign for that matter!).</p>
+          <p class="lead">We, at Valiant Edge, assist businesses like you with social media marketing services to save time and generate results. More traffic, more engagement, more leads for your business. This is the motto of our SMM services.</p>
+          <p class="lead">Accordingly we:</p>
+          <div class="bullet-flex">
+            <div class="bullet-SEO">
+          <img src="./images/SEO/bullet-SEO.png"  alt="" height="20" style="width: 30px !important;">
+            </div>
+          <p class="lead">Develop brand awareness by utilizing the perfect blend of social media tools.</p>
+        </div>
+        <div class="bullet-flex">
+            <div class="bullet-SEO">
+          <img src="./images/SEO/bullet-SEO.png"  alt="" height="20" style="width: 30px !important;">
+            </div>
+          <p class="lead">Build engagement by creating a strong connection with your audience.</p>
+        </div>
+        <div class="bullet-flex">
+            <div class="bullet-SEO">
+          <img src="./images/SEO/bullet-SEO.png"  alt="" height="20" style="width: 30px !important;">
+            </div>
+          <p class="lead">Increase website exposure by creating theme-based Facebook ad campaigns.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="my-5">
+        <div class=" text-center bg-v-green-l">
+          <div class="container pt-5 pb-3">
+            <h1 class="text-body-emphasis">Rank your Website on the Page #1</h1>
+            <p class="col-lg-8 mx-auto lead mt-3">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" style="background-color: #fff !important; color: black !important; border: 0 !important;">Get in Touch</button>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-5">
+        <div class=" text-center ">
+          <div class="container ">
+            <h1 class="text-body-emphasis">Explore a strategic approach to search engine optimization</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-Ux2 padd px-5 pb-5 bg-white">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card  h-100 mx-0 px-2 shadow">
+              <div class="img-circle-SM">
+                <img src="./images/socialMedia/SM-2cardicon1.png" width="50px" height="50px" class=" imgposition-SM" alt="...">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title centre">Finding the Right Platform</h5>
+                <p class="card-text centre">Not every social media platform is the right one to connect with your ideal customers. The easiest method to build engaged audiences, as well as potential buyers, is to reach out to them where they spend the most time. We optimize your profiles on the appropriate channel based on your audience</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card  h-100 mx-0 px-2 shadow">
+              <div class="img-circle-SM">
+                <img src="./images/socialMedia/SM-2cardicon2.png" width="50px" height="50px" class=" imgposition-SM" alt="...">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title centre">Targeting Perfection</h5>
+                <p class="card-text centre">Also, not everyone is your target audience. We design successful outcomes and deliver them intelligently. Through a campaign that resonates with your audience and motivates them to take action, we generate beneficial outcomes, that address their pain and points.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card  h-100 mx-0 px-2 shadow">
+              <div class="img-circle-SM">
+                <img src="./images/socialMedia/SM-2cardicon3.png" width="50px" height="50px" class=" imgposition-SM" alt="...">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title centre">Performance Tracking</h5>
+                <p class="card-text centre">Measuring performance and tracking results aid in the implementation of a results-based approach. We audit the campaigns regularly to guarantee that they are producing the required results. Detailed reporting gives insights on your position and methodologies to improve the same.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./index.js" charset="UTF-8"></script>  
+</body>
+</html>

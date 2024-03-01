@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <nav  class="navbar navbar-expand-lg bg-white">
+    <div  class="container">
+      <div  class="d-flex">
+        <button  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+          <span class="navbar-toggler-icon">
+        </span>
+      </button>
+      <img  routerlink="/dashboard" src="./images/VALIANT EDGE logo.png" alt="" height="50px" class="ms-2 cur-poiter" tabindex="0">
+    </div>
+    <div  id="navbarSupportedContent" class="collapse navbar-collapse ms-auto">
+      <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li  class="nav-item">
+          <div  routerlink="/dashboard" routerlinkactive="v-green-m" class="nav-link fw-bold cur-poiter px-3 text-dark" tabindex="0"> <a href="./index.html" class="navbar-text"> Home</a></div>
+        </li>
+        <li  class="nav-item dropdown">
+          <div  data-bs-toggle="dropdown" aria-expanded="false" class="nav-link fw-bold cur-poiter px-3 dropdown-toggle text-dark"> <a href="#" class="navbar-text"> Organization</a></div>
+          <ul class="dropdown-menu">
+            <li ><a  routerlink="/about" class="dropdown-item dd-menu-list navbar-text" >About Us</a>
+            </li>
+          </ul>
+        </li>
+        <li  class="nav-item dropdown">
+          <div data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" class="dropdown-toggle nav-link fw-bold cur-poiter px-3 v-green-m"> <a href="#" class="navbar-text"> Expertise </a></div>
+          <ul _id="main-dd" class="dropdown-menu" aria-expanded="false">
+            <li >
+              <div  class="dropend px-3 py-1">
+                <div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+                  <span  style="margin-right: 57px;"><a href="#" class="navbar-text">Services</a></span>
+                </div><ul  class="dropdown-menu">
+                  <li >
+                    <div  routerlink="/services/webdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./websiteDevelopment.html">Website Development</a> </div>
+                  </li>
+                  <li _>
+                    <div  routerlink="/services/softwaredevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./softwareDevelopment.html"> Software Development</a></div>
+                  </li>
+                  <li>
+                    <div  routerlink="/services/mobileappdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./mobileAppDevelopment.html"> Mobile App Development</a></div>
+                  </li>
+                  <li >
+                    <div  routerlink="/services/ecomdevelopment" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./.html"></a> E Commerce Development</div>
+                  </li>
+                  <li ><div  routerlink="/services/cloudesevices" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./cloudServices.html"> Cloud Services</a></div>
+                  </li>
+                  <li ><div  routerlink="/services/uiuxdesign" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./uxDesign.html"> UI/UX Design</a></div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li ><div  class="dropend px-3 py-1"><div  data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle drop-list">
+              <span  style="margin-right: 45px;"><a href="#" class="navbar-text">Marketing</a></span>
+            </div>
+            <ul  class="dropdown-menu">
+              <li >
+                <div  routerlink="/services/digitalmarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./digitalMarketing.html">Digital Marketing</a> </div>
+              </li>
+              <li >
+                <div  routerlink="/services/enterpriseseo" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./SEO.html"> Enterprise SEO</a></div>
+              </li>
+              <li ><div  routerlink="/services/socmediamarketing" class="navbar-text px-3 py-1 dd-menu-list text-nowrap" tabindex="0"><a href="./socialMedia.html">Social Media Marketing</a> </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li  class="nav-item">
+      <div  routerlink="/contact" routerlinkactive="v-green-m" class="navbar-text -link fw-bold cur-poiter px-3 text-dark" tabindex="0"><a href="./contact.html"><a href="#" class="navbar-text"> Contact</a></a></div>
+    </li>
+    <li  class="nav-item invisible">
+      <div  class="nav-link"></div>
+    </li>
+  </ul>
+</div>
+</div>
+</nav>
+
+  <div class="container-Ux-DM col-xxl-10 bg-body-tertiary start-Margin-DM ">
+    <div class="row flex-lg-row-reverse align-items-center rounded-4 bg-body-tertiary  shadow paddHeader g-5">
+      <div class="col-10 col-md-4 col-sm-12 col-lg-6" style="padding-right: 0px !important; margin-right: 0px !important;">
+        <img src="./images/digitalMarketing/DM-hero-img-1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="450" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 DM-hero-large">Digital Marketing</h1>
+        <p class="lead DM-hero-small">Spark your business to a new peak with our digital marketing services and experience consulting.</p>
+        
+          <button data-bs-toggle="modal" data-bs-target="#getInTouch" class="btn btn-lg bg-v-green-l rounded-0 border border-v-green-l fw-bold DM-phone-btnPad">Get in Touch</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="">
+    <div class="p-5 text-center ">
+      <div class="container ">
+        <h1 class="text-body-emphasis DM-jumb-large">Marketing Strategy that works in REAL!</h1>
+        <p class="col-lg-8 mx-auto lead  DM-jumb-small">
+            No more bookish strategies or fake promises!<br />
+            Transparent & proven methodologies for skyrocketing your business in no time!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-Ux2 padd pt-5 pb-3 px-card-DM-5 bg-white ">
+    <div class="row g-3 card-btw">
+      <div class="col-md-4 ">
+        <div class="card  h-100 mx-0 p-3 shadow" style="height: 280px !important;">
+          <div class="img-circle-cloud">
+            <img src="./images/digitalMarketing/DM-cardicon1.png" width="50px" height="50px" class=" imgposition-cloud" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre DM-card-heading">Search Engine Optimization</h5>
+            <p class="card-text centre centre DM-card-content">Soar to a high rank in the top search engines & get noticed before all others in the queue</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="card  h-100 mx-0  p-3 shadow" style="height: 280px !important;">
+          <div class="img-circle-cloud">
+            <img src="./images/digitalMarketing/DM-cardicon2.png" width="50px" height="50px" class=" imgposition-cloud" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre DM-card-heading">Pay-Per Click</h5>
+            <p class="card-text centre centre DM-card-content">Unleash the power of PPC Ads to get multiple clicks to your website & generate big sales figures.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card  h-100 mx-0 p-3 shadow"  style="height: 280px !important;">
+          <div class="img-circle-cloud">
+            <img src="./images/digitalMarketing/DM-cardicon3.png" width="50px" height="50px" class=" imgposition-cloud" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre DM-card-heading">Social Media Marketing</h5>
+            <p class="card-text centre centre DM-card-content">Be a known figure on social media & get more traffic for your business through social media marketing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-Ux2 padd px-card-DM-5 pb-5 bg-white">
+    <div class="row g-3 card-btw">
+      <div class="col-md-4">
+        <div class="card  h-100 mx-0  p-3 shadow" style="height: 280px !important;">
+          <div class="img-circle-cloud">
+            <img src="./images/digitalMarketing/DM-cardicon4.png" width="50px" height="50px" class=" imgposition-cloud" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre DM-card-heading">Lead Generation Services</h5>
+            <p class="card-text centre centre DM-card-content">Generate valuable, targeted & qualified leads and convert your leads into sure-shot buyers in just no time!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card  h-100 mx-0  p-3 shadow"  style="height: 280px !important;">
+          <div class="img-circle-cloud">
+            <img src="./images/digitalMarketing/DM-cardicon5.png" width="50px" height="50px" class=" imgposition-cloud" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre DM-card-heading">Branding Services</h5>
+            <p class="card-text centre centre DM-card-content">Position your brand in the right way, garner all attention and build an impressive brand identity online</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card  h-100 mx-0 p-3 shadow" style="height: 280px !important;">
+          <div class="img-circle-cloud">
+            <img src="./images/digitalMarketing/DM-cardicon6.png" width="50px" height="50px" class=" imgposition-cloud" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title centre DM-card-heading">Content Marketing Services</h5>
+            <p class="card-text centre DM-card-content">Industry-best content marketing support to help you create optimized content aimed at fueling conversions and boosting sales</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="p-0 text-center bg-body-tertiary">
+      <div class="container py-5">
+        <h1 class="text-body-emphasis DM-jumb-large">How to streamline a marketing strategy for an enterprise?</h1>
+        <p class="col-lg-12 mx-auto lead DM-jumb-small2">
+            Is your marketing strategy aligned to your business? If not, you need to align it right away! Misaligned marketing strategies can stop you from progress in business.
+        </p>
+      </div>
+    </div>
+  </div>
+<div class="bg-body-tertiary">
+  <div class="container-Ux2 padd px-DM-5 pt-5 pb-5 bg-body-tertiary">
+    <div class="row g-3 gap-DM">
+      <div class="col-md-4 col-sm-12">
+        <div class="card  h-100 mx-0  p-3 DM-card-size photocard-bgcolor phone-DM-card">
+          <div class="">
+            <img src="./images/digitalMarketing/DM-cardphoto-1.png" width="50px" height="50px" class="photo" alt="...">
+            </div>
+          <div class="card-body p-DM-5 ">
+            <h5 class="card-title text-center DM-card-heading2 pb-2 fw-bold">Crafting Strategy</h5>
+            <p class="card-text text-center DM-card-content2 pb-2">We design a Digital Marketing strategy that aligns with your business' vision and execute the same after defining your brand goal, messaging tone, communication channels, and buyers' personal.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="card  h-100 mx-0 px-DM-5 p-3 DM-card-size photocard-bgcolor phone-DM-card" >
+          <div class="">
+            <img src="./images/digitalMarketing/DM-cardphoto-2.png" width="50px" height="50px" class=" photo" alt="...">
+            </div>
+          <div class="card-body p-DM-5">
+            <h5 class="card-title text-center DM-card-heading2 pb-2 fw-bold">Launch Checklist</h5>
+            <p class="card-text text-center DM-card-content2">We design a Digital Marketing strategy that aligns with your business' vision and execute the same after defining your brand goal, messaging tone, communication channels, and buyers' personal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="my-2">
+    <div class=" text-center bg-v-green-l">
+      <div class="container pt-5 pb-3">
+        <h1 class=" DM-jumb-large-white">Talk to us today for a consultation?</h1>
+        <p class="col-lg-8 mx-auto lead mt-3">
+            <button type="button" class="btn btn-primary jumb-btn btn-lg px-2 me-md-2">Get in Touch</button>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="">
+    <div class=" text-center ">
+      <div class="container py-5">
+        <h1 class="text-body-emphasis DM-jumb-large">A risk free business analysis</h1>
+        <p class="col-lg-8 mx-auto lead DM-jumb3-small">
+            A single false step can knock your business out of market.
+            If you want to shield your business against such risks, risk-free business analysis is a must!
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-Ux2 padd pt-0 pb-3 px-card-DM-5  bg-white ">
+    <div class="row g-3 card-btw">
+      <div class="col-md-3">
+        <div class="card  h-100 mx-0 p-2 shadow" style="height: 260px !important;">
+          <div class="img-circle-DM">
+            <img src="./images/digitalMarketing/DM-cardicon1.png" width="50px" height="50px" class=" imgposition-DM" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title text-center DM-card-heading">Strategic thinking</h5>
+            <p class="card-text text-center DM-card-content-grey">Identify risks that can nullify your business strategies & deter progress</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 card2-DM ">
+        <div class="card  h-100 mx-0  p-2 shadow" style="height: 260px !important;">
+          <div class="img-circle-DM">
+            <img src="./images/digitalMarketing/DM-cardicon2.png" width="50px" height="50px" class=" imgposition-DM" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title text-center DM-card-heading">Target acquisition</h5>
+            <p class="card-text text-center DM-card-content-grey">Draw the attention of your target audience towards your brand & hold their interest</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 phone-margin">
+        <div class="card  h-100 mx-0  p-2 shadow" style="height: 260px !important;">
+          <div class="img-circle-DM">
+            <img src="./images/digitalMarketing/DM-cardicon2.png" width="50px" height="50px" class=" imgposition-DM" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title text-center DM-card-heading">Multiple linking</h5>
+            <p class="card-text text-center DM-card-content-grey">Consider multiple facets of your business plan before taking that one big leap of faith.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 card4-DM">
+        <div class="card  h-100 mx-0 p-3 shadow"  style="height: 260px !important;">
+          <div class="img-circle-DM">
+            <img src="./images/digitalMarketing/DM-cardicon3.png" width="50px" height="50px" class=" imgposition-DM" alt="...">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title text-center DM-card-heading">Customer support</h5>
+            <p class="card-text text-center DM-card-content-grey">Sort out the issues faced by your customers & win their trust</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container col-xxl-12 p-DM-x py-5 mar-DM-bottom">
+    <div class="row  align-items-center g-5 py-5 laptop-size " >
+      <div class="col-10 col-sm-8 col-lg-6 laptop-img">
+        <img src="./images/websiteDevelopment/WD-hero-img4.png" class="d-block mx-lg-auto img-fluid-DM" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h6 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Let’s Talk</h6>
+        <p class="lead">Response with business day, Guaranteed!!</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <div class="row g-3">
+            <div class="col-sm-6 col ">
+              <input type="text" class="form-control DM-left-pad" id="firstName" placeholder="First name" value="" required="">
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+            <div class="col-sm-6 col">
+              <input type="text" class="form-control" id="lastName" placeholder="Last name" value="" required="">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+            <div class="col-12 mar-DM-top">
+              <input type="email" class="form-control" id="email" placeholder="Email">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+
+            <div class="col-12 mar-DM-top">
+              <input type="text" class="form-control" id="address" placeholder="Phone" required="">
+              <div class="invalid-feedback">
+                Please enter your phone number.
+              </div>
+            </div>
+
+            <div class="col-12 mar-DM-top">
+              <div class="form2">
+                <label for="exampleFormControlInput1" class="form-label">Text input</label>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>What services you want to opt for?*</option>
+                  <option value="1">Website Development</option>
+                  <option value="2">Software Development</option>
+                  <option value="3">mobile Application Development</option>
+                  <option value="4">Digital Marketing</option>
+                  <option value="5">Cloud Services</option>
+                  <option value="6">Enterprise SEO</option>
+                  <option value="7">Social Media Marketing</option>
+                  <option value="8">UI/UX/Design</option>
+                  </select>
+            </div>
+            </div>
+
+            <div class="col-12 mar-DM-top">
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+            </div>
+            <div class="col-4 mar-DM-top">
+              <button type="submit" class="btn DM-btn-padd btn-form">Send Details</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-0">
+    <div class="p-3 text-center bg-v-green-l">
+      <div class="container pt-3 pb-4">
+        <h1 class="  text-DM-white">Ready to Get Started?</h1>
+        <button type="button" class="about-jumbTextSmall-btn btn btn-primary btn-lg px-3 py-2 me-md-2">Get in touch</button>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bg ">
+    <div class="container border-bottom">
+      <footer class="pt-5">
+        <div class="row">
+          <div class="col-md-5   social-media">
+            
+              <div class="title-wrapper">
+                  <img src="./images/footerimg.png" height="50px" />
+                  <h6 class="foottext2 footer-content2-space">If There Is One Lesson We Can Take Away From Modern Marketing, It Is That "If It's Not On The Web, it Doesn't Really Count Nearly 4 Billion Of The 7.7 Billion People On The Planet Have Access To The Internet.</h6>
+                  <p class="foottext2 mbr-desc mbr-fonts-style display-7 pt-5 pb-0 text-center1 footer-content color-v-green-l-foot">
+                    Follow us at
+                  </p>
+                  <div class="person-wrapper mb-2 mt-2">
+                      <div class="person-wrap">
+                          <img src="./images/footer/facebook.svg" width="40px" height="40px" class="smicons foottext2 pb-1 mr-3" style="margin-right: 5px !important;" alt="">
+                          <img src="./images/footer/twitter.svg" width="40px" height="40px" class="smicons foottext2 pb-1" style="margin-right: 5px !important;"/>
+                          <img src="./images/footer/instagram.svg" width="40px" height="40px" class="smicons foottext2 pb-1" style="margin-right: 5px !important;" />
+                          <img src="./images/footer/youtube.svg" width="40px" height="40px" class="smicons foottext2 pb-1 mr-5" style="margin-right: 5px !important;"/>
+                          <img src="./images/footer/linkedin.svg" width="40px" height="40px" class="smicons foottext2 pb-1 style="margin-right: 5px !important;""/>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+          <div class="col-6 col-md-2  Company">
+            <h5 class="footer-headings color-v-green-l-foot mb-3">Company</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0  footer-content">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">About Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Contact Us</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2  services">
+            <h5 class="footer-headings color-v-green-l-foot mb-3">Services</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Website Development</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Software Development</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">E-Commerce Development</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Mobile App Development</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Digital Marketing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Enterprise SEO</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Social Media Marketing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">Cloud Services</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content">UI/UX Design</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2  get-in-touch">
+            <h5 class="footer-headings footer-headings-size color-v-green-l-foot mb-3">Get in touch</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content footer-content-size mb-0">+91 84969 29113<br>+91 97411 38165</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-content my-3 phone-sizing">info@valiantedgetech.com</a></li>
+              <p class="footer-content2 ">#1- Flat No 506 S.L.V Towers Gandhi Nagar 2nd Cross Ballari 583103 Karnataka</p>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-5 d-flex flex-column justify-content-center align-items-center pt-3 border-top text-center">
+          <p class="footer-content2 footer-content2-phone mb-0">© 2024 Valiant Edge Technology All Rights Reserved.</p>
+          <p class="footer-content3  text-center footer-content3-phone">Powered By JAGAN RAVI TECHNOLOGIES LLP</p>
+    
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./index.js" charset="UTF-8"></script> 
+</body>
+</html>
